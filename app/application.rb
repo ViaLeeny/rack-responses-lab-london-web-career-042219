@@ -3,9 +3,9 @@ class Greeter
   t = Time.now
   
   if t.hour < 12
-    resp.write "Good Morning!"
+    puts "Good Morning!"
   else 
-    resp.write "Good Afternoon!"
+    puts "Good Afternoon!"
   end 
   
 end 

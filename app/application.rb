@@ -1,8 +1,7 @@
 class Greeter
   
-  
   t = Time.now
-  h = t.hour < 12
+  h = t.hour
   
 if h < 12
   resp.write "Good Morning!"

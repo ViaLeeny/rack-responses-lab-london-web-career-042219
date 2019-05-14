@@ -1,4 +1,4 @@
-class Greeter
+class Application
   
   t = Time.now
   
